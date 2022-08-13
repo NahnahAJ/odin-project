@@ -5,7 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="author" content="Felicia Awuah">
-  <title>YouTube</title>
+  <title>Trial</title>
   <link rel="stylesheet" href="styles.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,7 +14,7 @@
 
   <style>
     .thumbnail {
-      width: 200px;
+      width: 230px;
       
     }
     .search {
@@ -22,7 +22,6 @@
       font-size: larger;
       display: block;
     }
-
     .yt-info,
     .yt-author,
     .yt-stats {
@@ -33,7 +32,6 @@
     .yt-info {
       font-weight: 500;
       font-size: 15px;
-    
     }
 
     .yt-author,
@@ -49,26 +47,28 @@
 
     .th-preview {
       margin-top: 20px;
-      width: fit-content;
-      
-
 
     }
 
 
     .info-preview { 
-      margin-top: 22px;
-      margin-bottom: 10px;
-      line-height: 20px;
+      margin-top: 18px;
+      
+      line-height: 18px;
 
     }
 
 
     .grid-layout-first {
       display: grid;
-      grid-template-columns: 850px 210px 1fr;
-      grid-template-rows: 100px 100px 100px 100px 100px 200px;
+      grid-template-columns: 850px 1fr;
+      grid-template-rows: 1fr 1fr 1fr 1fr;
       
+    }
+
+    .thumbnail-grid {
+      display: grid;
+      grid-template-columns: 300px 300px;
     }
 
   
@@ -85,28 +85,11 @@
       <iframe width="800" height="524" src="https://www.youtube.com/embed/s7nO19BKNDA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
 
-    <div class="grid-layout-thumbnails">
+
+    <div class="thumbnail-grid">
       <div class="th-preview">
         <img class="thumbnail" src="Thumbnails/thumbnail1.webp">
       </div>
-      <div class="second-preview">
-        <img class="thumbnail" src="Thumbnails/hqdefault.webp">
-      </div>
-      <div class="second-preview">
-        <img class="thumbnail" src="Thumbnails/thumbnail3.webp">
-      </div>
-      <div class="second-preview">
-        <img class="thumbnail" src="Thumbnails/thumbnail4.webp">
-      </div>
-      <div class="second-preview">
-        <img class="thumbnail" src="Thumbnails/thumbnail5.webp">
-      </div>
-      <div class="second-preview">
-        <img class="thumbnail" src="Thumbnails/thumbnail6.webp">
-      </div>
-    </div>
-
-    <div class="grid-layout-stats">
       <div class="info-preview">
         <p class="yt-info">
           Bilionaire Dan Pena's Ultimate Advice For Students & Young...
@@ -117,6 +100,12 @@
         <p class="yt-stats">
           12M views &#183; 3 years ago 
         </p>
+      </div>
+  </div>
+
+  <div class="thumbnail-grid">
+      <div class="second-preview">
+        <img class="thumbnail" src="Thumbnails/hqdefault.webp">
       </div>
       <div class="info-preview">
         <p class="yt-info">
@@ -129,6 +118,12 @@
           5.9M views &#183; 4 years ago
         </p>
       </div> 
+  </div>
+
+  <div class="thumbnail-grid">
+      <div class="second-preview">
+        <img class="thumbnail" src="Thumbnails/thumbnail3.webp">
+      </div>
       <div class="info-preview">
         <p class="yt-info">
            Just focus on YOURSELF AND KEEP MOVING-BEST...
@@ -139,6 +134,12 @@
         <p class="yt-stats">
           Recommended for you
         </p>
+      </div>
+  </div>
+
+  <div class="thumbnail-grid">
+      <div class="second-preview">
+        <img class="thumbnail" src="Thumbnails/thumbnail4.webp">
       </div>
       <div class="info-preview">
         <p class="yt-info">
@@ -151,28 +152,26 @@
           6.3M views &#183; 1 years ago  
         </p>
       </div>
-      <div class="info-preview">
-        <p class="yt-info">
-         Top 5 Budget Headphones
-        </p>
-        <p class="yt-author">
-         Joan Sharpe
-        </p>
-        <p class="yt-stats">
-          47k views &#183; 2 years ago  
-        </p>
-      </div>
-      <div class="info-preview">
-        <p class="yt-info">
-        FULL EXPLANATION: The Discovery that'll CHANGE THE...
-        </p>
-        <p class="yt-author">
-          Ivor von Senger
-        </p>
-        <p class="yt-stats">
-          16 views &#183; 14 hours ago  
-        </p>
-      </div>
+  </div>
+
+
+</div>
+
+  
+
+
+    <div class="grid-layout-thumbnails">
+      
+      
+     
+     
+    </div>
+
+    <div class="grid-layout-stats">
+      
+      
+      
+      
     </div>
 
   </div>
